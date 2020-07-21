@@ -239,7 +239,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_exit:
                 finishAffinity();
-                System.exit(0);
             default:
                 return super.onOptionsItemSelected(item);
         }
